@@ -16,7 +16,7 @@ namespace PluginBuilderDM
 
         public string Plugin_Version()
         {
-            return "1.0.0.0";
+            return "1.0.0";
         }
 
         /*public void MenuAdder(System.Windows.Forms.ToolStripItem ts)
