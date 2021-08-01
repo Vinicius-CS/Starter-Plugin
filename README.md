@@ -8,7 +8,11 @@ This documentation is under development, soon it will be more detailed to help y
 # Starting
 
 To get started, download this repository, don't leave any files behind.
-Para começar, faça o download deste repositório, não deixe nenhum arquivo para trás.
+
+## Requeriments
+
+ - Visual Studio 2019;
+ - .NET Framework 4.7.2
 
 # Importing the Project
 
