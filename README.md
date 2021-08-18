@@ -1,3 +1,4 @@
+
 ![Device Management](https://i.imgur.com/Ek6opZb.png) Device Management
 
 ![Plugin for Device Management](https://i.imgur.com/RzO30kD.png) Plugin for Device Management
@@ -8,7 +9,11 @@ This documentation is under development, soon it will be more detailed to help y
 # Starting
 
 To get started, download this repository, don't leave any files behind.
-Para começar, faça o download deste repositório, não deixe nenhum arquivo para trás.
+
+## Requeriments
+
+ - Visual Studio 2019;
+ - .NET Framework 4.7.2
 
 # Importing the Project
 
@@ -25,5 +30,36 @@ Para começar, faça o download deste repositório, não deixe nenhum arquivo pa
  - Select the file "*PluginDM.dll*" and click "*Add*";
  - Make sure the checkbox is checked and click "*OK*".
 
+## Generating AssemblyInfo
+
+- Select the project and click with the right mouse button;
+- Click on "*Properties*";
+- In "*Application*", select "*Assembly Information…*";
+- Uncheck the checkbox "*Make assembly visible using COM*" and click "*OK*";
+- Now, in the same location, check the checkbox "*Make assembly visible using COM*" and click "*OK*";
+
+# Implementing Interface Members
+
+## Plugin_Discriminator
+
+It is a unique value that will be used to identify the plugin.
+
+## Plugin_Name
+
+It's the name of the plugin.
+
+## Plugin_Description
+
+The description is a summary of the plugin's function.
+
+## Plugin_Version
+
+It is the plugin version, it should be used as follows "*1.2.3.4*":
+1. Main Version
+2. Secondary Version
+3. Version Number
+4. Revision
+
 # End
+
 Now you can develop the plugin.
