@@ -2,36 +2,36 @@
 
 namespace Starter_Plugin
 {
-    class PluginCDM : PluginIDM
+    public class PluginCDM : PluginIDM
     {
-        string PluginDiscriminator = "SP";
+        string PluginDiscriminator = "sp";
         string PluginName = "Starter Plugin";
         string PluginDescription = "A starter Plugin for developers!";
         string PluginVersion = "1.0.0.0";
 
         System.Windows.Forms.UserControl PluginHomeInterface = new Home();
 
-        public string Plugin_Discriminator
+        string PluginIDM.Plugin_Discriminator
         {
             get { return PluginDiscriminator; }
         }
 
-        public string Plugin_Name
+        string PluginIDM.Plugin_Name
         {
             get { return PluginName; }
         }
 
-        public string Plugin_Description
+        string PluginIDM.Plugin_Description
         {
             get { return PluginDescription; }
         }
 
-        public string Plugin_Version
+        string PluginIDM.Plugin_Version
         {
             get { return PluginVersion; }
         }
 
-        public System.Windows.Forms.UserControl Plugin_HomeInterface
+        System.Windows.Forms.UserControl PluginIDM.Plugin_HomeInterface
         {
             get { return PluginHomeInterface; }
         }
