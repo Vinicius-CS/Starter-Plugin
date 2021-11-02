@@ -13,7 +13,7 @@ To get started, download this repository, don't leave any files behind.
 ## Requeriments
 
  - Visual Studio 2019;
- - .NET Framework 4.7.2
+ - .NET Framework 4.8
 
 # Importing the Project
 
@@ -38,27 +38,31 @@ To get started, download this repository, don't leave any files behind.
 - Uncheck the checkbox "*Make assembly visible using COM*" and click "*OK*";
 - Now, in the same location, check the checkbox "*Make assembly visible using COM*" and click "*OK*";
 
-# Implementing Interface Members
+# Implementing Interface Members (PluginCDM.cs)
 
-## Plugin_Discriminator
+## PluginDiscriminator
 
 It is a unique value that will be used to identify the plugin.
 
-## Plugin_Name
+## PluginName
 
 It's the name of the plugin.
 
-## Plugin_Description
+## PluginDescription
 
 The description is a summary of the plugin's function.
 
-## Plugin_Version
+## PluginVersion
 
 It is the plugin version, it should be used as follows "*1.2.3.4*":
 1. Main Version
 2. Secondary Version
 3. Version Number
 4. Revision
+
+## PluginHomeInterface
+
+It is the plugin main interface.
 
 # End
 
